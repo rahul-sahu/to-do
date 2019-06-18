@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+
+}
+body{
+    background-color: gray;
+}
+
+.page1{
+    height: 500px;
+    width: 680px;
+    margin: 40px auto;  
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px #00000079;
+    
+}
+.left{
+    width: 50%;
+    height: 100%;
+    background-color: #38a591;
+    float: left;
+
+}
+
+.right{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background-color: #35485f;
+    float: right;
+}
+
+#beer-icon{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+#copy{
+    width: 250px;
+    margin: 75px auto;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#switchForm{
+    width: 150px;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    top: 24px;
+    left: 160px;
+    border-radius: 20px;
+}
+
+.signIn{
+    background-color: #4C5D75;
+    text-decoration: none;
+    color:#F4F4F4;
+    font-size: 12px;
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.signUp{
+    background-color: #38a591;
+    text-decoration: none;
+    color:#F4F4F4;
+    font-size: 14px;
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 600;
+    box-shadow: 0px 0px 15px #00000079;
+}
+
+.form{
+    margin-top: 75px;
+    margin-left: 50px;
+}
+
+label{
+    font-size: 12px;
+}
+
+input{
+    border-top: transparent;
+    border-right: transparent;
+    border-left:transparent;
+    border-bottom: 1px solid rgb(138, 138, 138);
+    background-color: transparent; 
+    width: 240px;
+    height: 22px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type=checkbox]{
+    width: auto;
+    height: auto;
+}
